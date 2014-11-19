@@ -45,7 +45,7 @@ body {
  </head>
  <body>
   <div class="wrapper">
-    <p class="logo"><img src="http://jococruisecrazy.com/wp-content/uploads/2012/04/joco-logo-3.png" title="JoCo Cruise Crazy 3" /></p>
+    <p class="logo"><img src="http://jococruisecrazy.com/wp-content/themes/joco/bg-page-ipad.png" title="JoCo Cruise Crazy 3" /></p>
     <p class="tagline">A 7-night Eastern Caribbean cruise on Royal Caribbean's Freedom of the Seas, with Jonathan Coulton and friends</p>	
     <p style="clear:both;font-size:24px;"><strong>COMING SOON</strong></p>
   </div>

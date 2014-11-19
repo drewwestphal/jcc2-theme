@@ -43,7 +43,7 @@ Thematic is © Ian Stewart http://themeshaper.com/
 }
 
 body {
-	background: url(/wp-content/uploads/2013/02/bg-page-2013.png) top center repeat-x #005780;
+	background: url(./images/bg-page.png) top center repeat-x #005780;
 	color: #333;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
@@ -96,7 +96,7 @@ a:hover {
 }
 
 #blog-title {
-	background: url(/wp-content/uploads/2014/04/joco-logo-5.png) no-repeat; 
+	background: url(./images/joco-logo.png) no-repeat; 
 	height: 325px;
 	text-indent: -9999px;
 }
@@ -205,7 +205,7 @@ a:hover {
 
 /* The Experience */
 #menu-main-menu #menu-item-2073 a {
-  background: url(/wp-content/uploads/2012/05/experience.png) no-repeat;
+  background: url(images/nav/experience.png) no-repeat;
   width: 300px;
   height: 54px;
   display: block;
