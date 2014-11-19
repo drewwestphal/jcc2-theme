@@ -1,0 +1,598 @@
+/*   
+Theme Name: JoCo Cruise Crazy II
+Theme URI: 
+Description: JoCo Cruise Crazy 2012
+Author: Beth Sullivan
+Author URI: http://bethsullivan.com/
+Template: thematic
+Version: 1.0
+Tags: Thematic
+.
+Thematic is © Ian Stewart http://themeshaper.com/
+.
+*/
+
+/* Reset browser defaults */
+@import url('../thematic/library/styles/reset.css');
+
+/* Apply basic typography styles */
+@import url('../thematic/library/styles/typography.css');
+
+/* Apply a basic layout */
+@import url('../thematic/library/layouts/2c-r-fixed.css');
+
+/* Apply basic image styles */
+@import url('../thematic/library/styles/images.css');
+
+/* Apply default theme styles and colors */
+/* It's better to actually copy over default.css into this file (or link to a copy in your child theme) if you're going to do anything outrageous */
+@import url('../thematic/library/styles/default.css');
+
+/* Prepare theme for plugins */
+@import url('../thematic/library/styles/plugins.css');
+
+@font-face {
+    font-family: 'ChunkFiveRegular';
+    src: url('/fonts/chunk-webfont.eot');
+    src: url('/fonts/chunk-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/chunk-webfont.woff') format('woff'),
+         url('/fonts/chunk-webfont.ttf') format('truetype'),
+         url('/fonts/chunk-webfont.svg#ChunkFiveRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	background: url(wp-content/uploads/2013/02/bg-page-ipad-2013.png) top center repeat-x #005780;
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 130%;
+	margin: 0;
+	padding-top: 10px;
+}
+
+#special-announcement {
+	color: #fb6d05;
+	font-family: "ChunkFiveRegular";
+	font-size: 17px;
+	margin: 0 auto;
+	position: relative;
+	text-transform: uppercase;
+	width: 450px;
+}
+
+#special-announcement a {
+	color: #fb6d05;
+	text-decoration: none;
+}
+
+#special-announcement ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#special-announcement li {
+	text-align: center;
+}
+
+a:link, 
+a:visited {
+	color: #008fb5;
+}
+
+a:hover {
+	color: #005a82;
+}
+
+/* Logo and Site Description
+-----------------------------------------------------------------*/
+
+#branding {
+	height: 335px;
+	padding: 60px 0 0;
+	width: 1000px;
+}
+
+#blog-title {
+	background: url(images/joco-logo.png) no-repeat; 
+	height: 325px;
+	text-indent: -9999px;
+}
+
+#blog-title a {
+	display: block;
+	height: 325px;
+	width: 1000px;
+}
+
+#blog-description {
+	color: #fafaec;
+	font-size: 22px;
+	font-style: normal;
+	line-height: 120%;
+	margin: -86px 0 0 242px;
+	text-align: justify;
+	width: 752px;
+}
+
+/* Main Content Area
+-----------------------------------------------------------------*/
+
+#main {
+	padding: 0;
+	width: 1000px;
+}
+
+#container {
+	background: #f9f8e7;
+	border-top: 8px solid #fe8d30;
+	margin: 0;
+	padding: 20px;
+	width: 660px;
+}
+
+#content {
+	margin: 0;
+	min-height: 800px;
+	padding: 0;
+	width: 660px;
+}
+
+.entry-content {
+	margin: 0;
+	padding: 0;
+}
+
+#primary {
+	border-top: 8px solid #92e5f9;
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+	margin: 0;
+	padding: 0;
+	width: 300px;
+}
+
+.main-aside {
+	right: 0;
+	width: 300px;
+}
+
+/* Nav
+-----------------------------------------------------------------*/
+
+.main-aside ul {
+	padding: 0;
+}
+
+#primary .menu {
+	width: 300px;
+}
+
+.aside ul ul {
+	margin: 0;
+}
+
+.aside ul ul li {
+	padding: 0;
+}
+
+#menu-main-menu li {
+	list-style: none;
+}
+
+/* Book Now */
+#menu-main-menu #menu-item-1173 a {
+  background: url(images/nav/book-now.png) no-repeat;
+  width: 300px;
+  height: 54px;
+  display: block;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+#menu-main-menu #menu-item-1173.current_page_item a, 
+#menu-main-menu #menu-item-1173.current_page_parent a, 
+#menu-main-menu #menu-item-1173.current_page_ancestor a {
+	background-position: 0 -54px;
+}
+
+#menu-main-menu #menu-item-1173 a:hover {
+    background-position: 0 -54px;
+}
+
+/* The Cruise */
+#menu-main-menu #menu-item-1171 a {
+  background: url(images/nav/cruise.png) no-repeat;
+  width: 300px;
+  height: 54px;
+  display: block;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+#menu-main-menu #menu-item-1171 a:hover {
+	background-position: 0 -52px;	
+}
+
+#menu-main-menu #menu-item-1171.current_page_item a, 
+#menu-main-menu #menu-item-1171.current_page_parent a, 
+#menu-main-menu #menu-item-1171.current_page_ancestor a {
+	background-position: 0 -52px;		
+}
+
+/* The Entertainment */
+#menu-main-menu #menu-item-1170 a {
+  background: url(images/nav/entertainment.png) no-repeat;
+  width: 300px;
+  height: 54px;
+  display: block;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+#menu-main-menu #menu-item-1170 a:hover {
+	background-position: 0 -52px;	
+}
+
+#menu-main-menu #menu-item-1170.current_page_item a, 
+#menu-main-menu #menu-item-1170.current_page_parent a, 
+#menu-main-menu #menu-item-1170.current_page_ancestor a {
+	background-position: 0 -52px;		
+}
+
+/* Pricing */
+#menu-main-menu #menu-item-1131 a {
+  background: url(images/nav/pricing.png) no-repeat;
+  width: 300px;
+  height: 54px;
+  display: block;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+#menu-main-menu #menu-item-1131 a:hover {
+	background-position: 0 -52px;	
+}
+
+#menu-main-menu #menu-item-1131.current_page_item a, 
+#menu-main-menu #menu-item-1131.current_page_parent a, 
+#menu-main-menu #menu-item-1131.current_page_ancestor a {
+	background-position: 0 -52px;		
+}
+
+/* FAQ */
+#menu-main-menu #menu-item-1169 a {
+  background: url(images/nav/faq.png) no-repeat;
+  width: 300px;
+  height: 54px;
+  display: block;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+#menu-main-menu #menu-item-1169 a:hover {
+	background-position: 0 -52px;	
+}
+
+#menu-main-menu #menu-item-1169.current_page_item a, 
+#menu-main-menu #menu-item-1169.current_page_parent a, 
+#menu-main-menu #menu-item-1169.current_page_ancestor a {
+	background-position: 0 -52px;		
+}
+
+/* News */
+#menu-main-menu #menu-item-1134 a {
+  background: url(images/nav/news.png) no-repeat;
+  width: 300px;
+  height: 54px;
+  display: block;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+#menu-main-menu #menu-item-1134 a:hover {
+	background-position: 0 -52px;	
+}
+
+#menu-main-menu #menu-item-1134.current_page_item a, 
+#menu-main-menu #menu-item-1134.current_page_parent a, 
+#menu-main-menu #menu-item-1134.current_page_ancestor a {
+	background-position: 0 -52px;		
+}
+
+/* Previous Cruises */
+#menu-main-menu #menu-item-1128 a {
+  background: url(images/nav/previous-cruises.png) no-repeat;
+  width: 300px;
+  height: 54px;
+  display: block;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+#menu-main-menu #menu-item-1128 a:hover {
+	background-position: 0 -52px;	
+}
+
+#menu-main-menu #menu-item-1128.current_page_item a, 
+#menu-main-menu #menu-item-1128.current_page_parent a, 
+#menu-main-menu #menu-item-1128.current_page_ancestor a {
+	background-position: 0 -52px;		
+}
+
+/* Contact */
+#menu-main-menu #menu-item-1172 a {
+  background: url(images/nav/contact.png) no-repeat;
+  width: 300px;
+  height: 54px;
+  display: block;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+#menu-main-menu #menu-item-1172 a:hover {
+	background-position: 0 -52px;	
+}
+
+#menu-main-menu #menu-item-1172.current_page_item a, 
+#menu-main-menu #menu-item-1172.current_page_parent a, 
+#menu-main-menu #menu-item-1172.current_page_ancestor a {
+	background-position: 0 -52px;		
+}
+
+/* Social Networking
+-----------------------------------------------------------------*/
+
+#text-7 {
+	float: right;
+}
+
+#text-7 ul {
+	list-style: none;
+	margin: 0;
+	padding: 10px 20px;
+}
+
+#text-7 li {
+	display: inline;
+	list-style: none;
+	margin: 0;
+	text-align: right;
+}
+
+/* Footer
+-----------------------------------------------------------------*/
+
+#footer {
+	border-top: 8px solid #f1df97;
+	margin: 0 auto;
+	position: relative;
+	width: 1000px;
+}
+
+#footer, 
+#footer a, 
+#subsidiary {
+	color: #f2e5a9;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}
+
+#subsidiary {
+	padding: 20px 0 0;
+	width: 1000px;
+}
+
+#subsidiary .aside {
+	color: #f2e5a9;	
+	font-size: 12px;
+	width: auto;
+}
+
+#subsidiary ul  {
+	list-style: none;
+}
+
+#subsidiary li {
+	display: inline;
+	list-style: none;
+	margin: 0 20px 0 0;
+}
+
+#subsidiary #first {
+	float: left;
+	padding-left: 20px;
+	width: 660px;	
+}
+
+#subsidiary #second {
+	float: right;
+}
+
+#subsidiary #third {
+	margin: -330px 0 0 760px;
+	position: absolute;
+	z-index: -1000;
+}
+
+#siteinfo {
+	display: none;
+}
+
+/* Font styles
+-----------------------------------------------------------------*/
+
+h1.entry-title {
+	color: #fb6d05;
+	font-family: "ChunkFiveRegular";
+	font-size: 28px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 20px;
+	text-transform: uppercase;
+}
+
+.home h1.entry-title {
+	display: none;
+}
+
+.home h2 {
+	color: #fb6d05;
+	font-family: "ChunkFiveRegular";
+	font-size: 28px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 20px;
+	text-transform: uppercase;	
+}
+
+.entry-content h2 {
+	margin: 0;
+	padding: 0 0 20px;
+}
+
+h2.entry-title {
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+}
+
+h2.entry-title a {
+	color: #000;
+}
+
+h2.entry-title a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+.page-title a.active, 
+.page-title a:hover {
+	color: #005a82;
+	text-decoration: underline;
+}
+
+.entry-content h3 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  padding: 5px 0 12px;
+}
+
+.entry-meta {
+	color: #555;
+	font-size: 11px;
+	font-style: normal;
+	margin: 0;
+	padding: 0 0 15px;
+	text-transform: uppercase;
+}
+
+.attachment h2.page-title {
+	font-size: 14px;
+	font-style: normal;
+	text-transform: uppercase;
+}
+
+.attachment .entry-meta, 
+.attachment .entry-utility, 
+.attachment #comments {
+	display: none;
+}
+
+#comments-list ol {
+    border: none;
+}
+
+#comments-list li {
+	background: #f9f8e7;
+	border-bottom: 1px solid #f5ea8d;
+}
+
+#comments-list li.alt {
+    background: none repeat scroll 0 0 #fdfcf2;
+}
+
+#comments-list li.comment-author-joco {
+	background: #f9f2b6;
+}
+
+#comments-list .comment-meta a,
+#comments-list .comment-reply-link a {
+    color: #666666;
+    font-style: normal;
+    text-decoration: none;
+}
+
+#comments-list .comment-meta a:hover,
+#comments-list .comment-reply-link a:hover {
+	color: #666;
+	text-decoration: underline;
+}
+
+#respond {
+	background: none;
+	padding: 0;
+}
+
+#comments-list h3,
+#respond h3 {
+	color: #fb6d05;
+	font-family: "ChunkFiveRegular";
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.entry-utility {
+	border-bottom: 2px solid #fe8d30;
+	margin: 0;
+	padding: 0 0 20px;	
+}
+
+.entry-utility a {
+	font-size: 12px;
+	font-style: normal;
+	text-transform: uppercase;
+}
+
+#nav-below {
+	margin-top: 20px;
+}
+
+#nav-below a {
+	font-size: 11px;
+	font-style: normal;
+	text-transform: uppercase;
+}
+
+.comments-link a:hover,
+#nav-below a:hover {
+	color: #005a82;
+}
+
+.wp-caption {
+	background: #fff;
+    border: 1px solid #f0e78d;
+    margin-bottom: 18px;
+    padding: 9px 5px 0;
+    text-align: center;
+}
+
+/* Photo Gallery
+-----------------------------------------------------------------*/
+
+.gallery-icon {
+	border: none;
+}
+
+.gallery-icon a img {
+	background: #fff;
+	border: 1px solid #fbed8d;
+	padding: 4px;
+}
